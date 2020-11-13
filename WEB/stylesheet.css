@@ -1,0 +1,27 @@
+header {
+    background-color: powderblue;
+    font-family: "Comic Sans MS";
+}
+header:after {
+    content: '';
+    display: table;
+    clear: both;
+}
+nav {
+    float: inside;
+}
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+nav li {
+    display: inline-block;
+    margin-left: 60px;
+    padding: 30px;
+}
+nav a {
+    text-decoration: none;
+    text-transform: uppercase;
+}
