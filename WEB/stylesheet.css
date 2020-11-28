@@ -1,6 +1,11 @@
 header {
-    background-color: powderblue;
-    font-family: "Comic Sans MS";
+    background-color: lightskyblue;
+    font-family: "Microsoft JhengHei UI Light";
+    font-size: 150%;
+    color: black;
+    margin: 0px;
+
+
 }
 header:after {
     content: '';
@@ -23,5 +28,10 @@ nav li {
 }
 nav a {
     text-decoration: none;
-    text-transform: uppercase;
+    text-transform: capitalize;
+    color: black;
 }
+a:visited {
+    color: black;
+}
+
